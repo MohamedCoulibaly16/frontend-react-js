@@ -1,7 +1,7 @@
 import {produits} from "../data/produits";
 import BadgeProduit from "./BadgeProduit";
 import {useState} from "react";
-
+//deuxieme commit(pour le test)
 function Accueil({panier, setPanier}) {
     const [filters, setFilters] = useState({
         nom: '',
